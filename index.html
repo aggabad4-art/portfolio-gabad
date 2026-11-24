@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of April Grace P. Gabad - First-Year BSIT Student" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <title>April Grace Gabad | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="top">
+    <a href="#home" class="logo">AG<span>.</span></a>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#gallery" class="nav-link">Hobbies</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Palitan ang theme" title="Palitan ang theme">🌙</button>
+      <button id="menu-toggle" class="icon-btn menu-btn" aria-label="Buksan ang menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="greeting" id="greeting">Hello! 👋</p>
+        <h1>I'm <span class="gradient-text">April Grace P. Gabad</span></h1>
+        <p class="role">I'm a <span id="typing"></span><span class="cursor">|</span></p>
+        <p class="hero-desc">
+          A first-year BSIT student who loves learning how to code, creating things
+          from my own ideas, and chasing sunsets along the way.
+        </p>
+        <div class="hero-buttons">
+          <a href="#resume" class="btn btn-primary">View Resume</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="avatar">
+          <span class="avatar-initials">AG</span>
+          <!-- Ilagay ang picture mo sa images/profile.jpg para lumabas dito -->
+          <img src="images/profile.jpg" alt="April Grace Gabad" onerror="this.remove()" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <p class="eyebrow reveal">GET TO KNOW ME</p>
+      <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid">
+        <div class="card reveal">
+          <p>
+            Hi! I'm a first-year Bachelor of Science in Information Technology (BSIT)
+            student who wants to learn more about coding and programming. I am interested
+            in improving my skills, discovering what I can do, and creating things through
+            my own ideas. I may still be a beginner, but I am willing to learn and
+            challenge myself to become better.
+          </p>
+          <p>
+            During my free time, especially when I don't have classes, I enjoy going
+            outside to relax and clear my mind. I also love going on rides because they
+            help me reduce stress, especially when I have many school tasks to finish.
+            One of the things I enjoy most is taking pictures of sunsets, especially by
+            the beach, because I love capturing the beautiful view and peaceful feeling
+            of the moment. For me, having time to enjoy life while learning new things
+            is a good way to stay motivated.
+          </p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact"><span class="fact-icon">🎓</span><div><strong>BSIT - 1st Year</strong><small>Sorsogon State University, Bulan Campus</small></div></div>
+          <div class="fact"><span class="fact-icon">💻</span><div><strong>Learning</strong><small>HTML, CSS, JavaScript &amp; Python</small></div></div>
+          <div class="fact"><span class="fact-icon">🌅</span><div><strong>Loves</strong><small>Sunsets, rides &amp; the beach</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <p class="eyebrow reveal">WHAT I CAN DO</p>
+      <h2 class="section-title reveal">My <span class="gradient-text">Skills</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">🌐</div><h3>Basic HTML</h3><p>Creating simple web pages using HTML tags and elements.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🎨</div><h3>CSS Styling</h3><p>Learning how to add colors, designs, and styles to web pages.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🖥️</div><h3>Computer Literacy</h3><p>Using computers and different applications for school activities and tasks.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">📄</div><h3>Microsoft Office</h3><p>Creating documents, presentations, and organizing information using Word and PowerPoint.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">💡</div><h3>Creative Thinking</h3><p>Coming up with new ideas and finding ways to complete different tasks.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">⏰</div><h3>Time Management</h3><p>Managing my time and completing school activities responsibly.</p></article>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section">
+      <p class="eyebrow reveal">FOR EMPLOYERS</p>
+      <h2 class="section-title reveal">My <span class="gradient-text">Resume</span></h2>
+      <div class="resume card reveal" id="resume-card">
+        <div class="resume-head">
+          <h3>April Grace P. Gabad</h3>
+          <p class="resume-sub">First-Year Bachelor of Science in Information Technology (BSIT) Student</p>
+          <p class="resume-contact">
+            <a href="mailto:aggabad4@gmail.com">✉️ aggabad4@gmail.com</a>
+            <a href="tel:09464893960">📞 0946 489 3960</a>
+          </p>
+        </div>
+
+        <h4 class="resume-title">Objective</h4>
+        <p>
+          A motivated first-year BSIT student who is eager to learn more about technology,
+          coding, and programming. I want to improve my skills, gain new experiences, and
+          apply what I have learned in school. I am willing to learn, accept challenges,
+          and continue improving myself.
+        </p>
+
+        <h4 class="resume-title">Education</h4>
+        <div class="timeline">
+          <div class="timeline-item">
+            <strong>Bachelor of Science in Information Technology (BSIT)</strong>
+            <span>Sorsogon State University, Bulan Campus</span>
+            <em>First Year - Present</em>
+          </div>
+          <div class="timeline-item">
+            <strong>Senior High School - ICT</strong>
+            <span>Matnog National High School</span>
+            <em>Graduated 2025</em>
+          </div>
+        </div>
+
+        <h4 class="resume-title">Skills</h4>
+        <div class="chips">
+          <span class="chip">Basic HTML</span>
+          <span class="chip">CSS Styling</span>
+          <span class="chip">Computer Literacy</span>
+          <span class="chip">Microsoft Word &amp; PowerPoint</span>
+          <span class="chip">Creative Thinking</span>
+          <span class="chip">Time Management</span>
+        </div>
+
+        <button class="btn btn-primary no-print" id="print-btn">⬇️ Save / Print Resume (PDF)</button>
+      </div>
+    </section>
+
+    <!-- HOBBIES / GALLERY -->
+    <section id="gallery" class="section">
+      <p class="eyebrow reveal">OUTSIDE OF CODING</p>
+      <h2 class="section-title reveal">My <span class="gradient-text">Hobbies</span></h2>
+      <div class="gallery">
+        <figure class="shot sunset reveal">
+          <img src="images/sunset1.jpg" alt="Sunset by the beach" loading="lazy" onerror="this.remove()" />
+          <figcaption><strong>🌅 Sunset Photography</strong><small>Capturing peaceful beach views</small></figcaption>
+        </figure>
+        <figure class="shot ride reveal">
+          <img src="images/ride.jpg" alt="Going on a ride" loading="lazy" onerror="this.remove()" />
+          <figcaption><strong>🏍️ Going on Rides</strong><small>My way to reduce stress</small></figcaption>
+        </figure>
+        <figure class="shot relax reveal">
+          <img src="images/outside.jpg" alt="Relaxing outside" loading="lazy" onerror="this.remove()" />
+          <figcaption><strong>🌿 Relaxing Outside</strong><small>Clearing my mind after school</small></figcaption>
+        </figure>
+      </div>
+      <p class="hint reveal">Tip: ilagay ang sarili mong photos sa <code>images/</code> folder (sunset1.jpg, ride.jpg, outside.jpg).</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <p class="eyebrow reveal">LET'S CONNECT</p>
+      <h2 class="section-title reveal">Contact <span class="gradient-text">Me</span></h2>
+      <div class="contact-grid">
+        <div class="card reveal">
+          <h3>Send me a message</h3>
+          <form id="contact-form" novalidate>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required />
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            <p id="form-status" class="form-status" role="status"></p>
+            <button type="submit" class="btn btn-primary">Send Message ✉️</button>
+          </form>
+        </div>
+        <div class="contact-info reveal">
+          <a class="contact-item" href="mailto:aggabad4@gmail.com"><span>✉️</span><div><strong>Email</strong><small>aggabad4@gmail.com</small></div></a>
+          <a class="contact-item" href="tel:09464893960"><span>📞</span><div><strong>Phone</strong><small>0946 489 3960</small></div></a>
+          <div class="contact-item"><span>📍</span><div><strong>School</strong><small>Sorsogon State University, Bulan Campus</small></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> April Grace P. Gabad. Made with 💖 using HTML, CSS, JavaScript &amp; Python.</p>
+    <a href="#top" class="to-top">↑ Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
